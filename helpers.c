@@ -42,7 +42,7 @@ int	ft_putnbr(long long n)
 {
 	int	len;
 
-len = 0;
+	len = 0;
 	if (n >= 0 && n <= 9)
 		len += ft_putchar((n + 48));
 	else if (n < 0)
